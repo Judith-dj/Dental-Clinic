@@ -1,0 +1,141 @@
+.container {
+    padding: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background-color: rgb(164, 155, 155);
+    font-size: larger;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav p {
+    padding: 10px 0px 10px 50px;
+    display: inline-block;
+}
+
+.nav h4 {
+    padding: 10px 50px 10px 0px;
+}
+
+.btn {
+    padding: 13px 50px 13px 50px;
+    margin-top: 10px;
+    border: solid black 3px;
+    color: black;
+    background-color: rgb(128, 185, 178);
+    border-radius: 20px;
+}
+.btn:hover{
+    transition: 1s;
+    color: orange;
+    background-color: transparent;
+    color:rgb(179, 38, 179); 
+    border: solid rgb(179, 38, 179) 1px;
+ }
+.section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-1,
+.section-2 {
+    display: inline-block;
+}
+
+.section-2 img {
+    width: 600px;
+    border-radius: 100px;
+}
+
+.section h1 {
+    font-size: xx-large;
+    font-style: italic;
+    color: black;
+    text-size-adjust: 100px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #80B9B2;
+
+
+}
+
+.section1 {
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.sec-1,
+.sec-2,
+.sec-3 {
+    border: solid black 2px;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-around;
+    color: white;
+    background-color: orange;
+    margin: 8px;
+    border-radius: 10px;
+
+}
+
+.section2 h1 {
+    text-align: center;
+}
+
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 20px;
+    gap: 30px;
+}
+
+.section3 {
+    background-color: rgb(179, 175, 175);
+    padding: 20px;  
+}
+.sec3-1{
+    display: inline-block;
+    width: 200px;
+}
+.sec3-2{
+    display: inline-block;
+    width: 200px;
+    padding-left: 15px;
+    border-left: 1px solid white;
+}
+.sec3,.sec3-3{
+    display: inline-block;
+}
+.sec3-3 img{
+    padding-left: 200px;
+    width: 400px;
+    height: 300px;
+}
+.section4{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sec4-1,.sec4-2,.sec4-3{
+    border: 2px solid black;
+    margin: 4px;
+    color: white;
+    background-color: orange;
+    display: inline-block;
+    padding: 3px;
+}
+
+
+@media screen and (max-width:768px) {
+    .sec3-3 img{
+     display: block;
+     padding: 5px;
+    }
+   
